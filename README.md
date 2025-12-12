@@ -20,3 +20,8 @@ ALTERNATE HYPOTHESIS
 - The Lady is able to differentiate between the cups of tea with milk in first from those with tea in first
 
 EVIDENCE
+
+
+## Standard Normal Distribution and degree of freedom
+## ddof
+ddof means degree of freedom ddof=1 is used for calculating the sample standard devaition while ddof=0 is used to calculate the population standard deviation as described by [tidystat](https://tidystat.com/when-to-use-ddof1-in-np-std/) and in the official [numpy.std](https://numpy.org/devdocs/reference/generated/numpy.std.html) documentation.
