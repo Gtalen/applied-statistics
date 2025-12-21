@@ -37,7 +37,7 @@ This repository contains solutions to four applied statistical problem using Pyt
 
 ## Problem Summary
 
-**Lady Tasting Tea**
+**Problem 1 - Lady Tasting Tea**
 
 This assignment simulates an extended version of Fisher's Lady Tasting Tea experiment using 12 cups of tea (4 milk-first, 8 tea-first). The probaility of correctly identifying all cups by chance is estimated and compared to the original 8-cup experiment using statistical testing techniques such as probability and hypothesis testing.
 
