@@ -9,9 +9,10 @@ This repository contains solutions to four applied statistical problem using Pyt
 
 ## Repository Content
 
-- README.md: Overview of the assessment and approach  
-- problems.ipynb: Jupyter Notebook containin solutions, simulations, and explanations  
+- problems.ipynb: Jupyter Notebook containing solutions, simulations, and explanations  
 - requirements.txt: Python dependencies required to run the notebook
+- README.md: Overview of the assessment and approach  
+- License.md: Contains the license copyright information
 
 ## How to Run
 
@@ -36,29 +37,27 @@ This repository contains solutions to four applied statistical problem using Pyt
 
 ## Problem Summary
 
-### 1. Lady Testing Tea
+**Lady Tasting Tea**
 
-This experiments simulates the of probaility of choosing rightly if milk or tea was first added to a cup of tea.
+This assignment simulates an extended version of Fisher's Lady Tasting Tea experiment using 12 cups of tea (4 milk-first, 8 tea-first). The probaility of correctly identifying all cups by chance is estimated and compared to the original 8-cup experiment using statistical testing techniques such as probability and hypothesis testing.
 
-**Test of Hypothesis**
+**Problem 2 – Normal and Standard Normal Distribution**  
+100,000 samples of size 10 were generated from normal and standard normal distributions using `numpy.random.normal`. This was used to demonstrate the effect of the mean and standard deviation on the population and sample statistics.
 
-NULL HYPOTHESIS
-- The Lady cannot tell the difference between the cups of tea with tea in first versus those with milk in first
-- The Lady is randomly choosing the 4 cups of tea frm the 12 at random
+**Problem 3 – Type II Error**  
+The probability of making a Type II error was simulated in independent-samples t-tests. 
 
+**Problem 4 – ANOVA vs Multiple t-Tests**  
+Three independent samples are generated and compared using one-way ANOVA and multiple pairwise t-tests. The Bonferroni correction and Tukey post-hoc tests were applied to demonstrate differences in rejection rates and to highlight why ANOVA is preferred when testing multiple groups.
 
-ALTERNATE HYPOTHESIS
-- The Lady is able to differentiate between the cups of tea with milk in first from those with tea in first
+## Reflective  Learning
 
-.EVIDENCE
+These assignments provided valuable insight into applying statistical techniques to real-world problems. They highlight the importance of experimental design, sample size, confidence intervals, and the choice of appropriate statistical tests—including probability and hypothesis testing, t-tests, ANOVA, and post-hoc comparisons. It deepened my understanding of how these factors are core considerations in study design and how they help reduce the rates of Type I and Type II errors.
 
-### 2. Standard Normal Distribution and degree of freedom
-
-ddof means degree of freedom ddof=1 is used for calculating the sample standard devaition while ddof=0 is used to calculate the population standard deviation as described by [tidystat](https://tidystat.com/when-to-use-ddof1-in-np-std/) and in the official [numpy.std](https://numpy.org/devdocs/reference/generated/numpy.std.html) documentation.
 
 ## Software Used
 
-- Python 3.2
+- Python 3.12
 - NumPy
 - SciPy
 - Matplotlib
@@ -69,13 +68,13 @@ Author: Ebelechukwu Igwagu
 
 ## Additional Acknowledgement
 
-- Github copilot - Aided with codes autocompletion
+- Github copilot - Aided with code autocompletion
 - ChatGPT AI (2025). Productivity aid and debugging.
 Hovever, the scope, logic, and decisions remain fully original to the author.
 
 ## Want to contribute?
 
-This project is open to contributions! Feel free to fork the repository, submit issues, or create pull requests. All contributions are welcome.
+Do you have a different and a better approach to these questions? This is open to contributions! Feel free to fork the repository, submit issues, or create pull requests. All contributions are welcome.
 
 ## License
 
